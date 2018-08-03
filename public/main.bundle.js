@@ -542,10 +542,11 @@ var EmployeesComponent = /** @class */ (function () {
         this.router.navigate(['/employee', id]);
     };
     EmployeesComponent.prototype.onEmployeeSearchKeyUP = function (event) {
+        var val = event.target.value.toLowerCase();
         this.filteredEmployees = this.employees.filter(function (employee) {
-            return employee.FirstName.toLowerCase().includes(event.target.value)
-                || employee.LastName.toLowerCase().includes(event.target.value)
-                || employee.Position.PositionName.toLowerCase().includes(event.target.value);
+            if (employee.FirstName.toLowerCase().includes(val) || employee.LastName.toLowerCase().includes(event.target.value)
+                || employee.Position.PositionName.toLowerCase().includes(event.target.value))
+                return true;
         });
     };
     EmployeesComponent = __decorate([
