@@ -3,10 +3,10 @@ var app = express();
 
 var path = require("path");
 
-var HTTP_PORT = process.env.PORT || 8080;
+var HTTP_PORT = process.env.PORT || 8000;
 
 // setup the static folder 
-app.use(express.static("public")); 
+app.use(express.static("public"));
 
 // handle "404" errors
 app.use((req, res) => {
@@ -14,6 +14,6 @@ app.use((req, res) => {
 });
 
 // Start the server
-app.listen(HTTP_PORT, function(){
+app.listen(HTTP_PORT, function () {
     console.log("Server listening on port: " + HTTP_PORT);
 });
