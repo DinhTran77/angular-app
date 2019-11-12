@@ -4,16 +4,19 @@ Dinh's Angular API
 ![Angular app image](./public/assets/Angular.jpg)
 ---
 
-# Live Preview
-https://dashboard.heroku.com/apps/dinh-angular-project
 
----
 
 ## Table of contents 
+- [Live preview](#live-preview)
 - [Description](#description)
 - [Installation](#installation)
 - [How to use](#how-to-use)
 - [License](#installation)
+
+---
+
+# Live Preview
+https://dashboard.heroku.com/apps/dinh-angular-project
 
 ---
 
