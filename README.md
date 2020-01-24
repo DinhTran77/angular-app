@@ -35,11 +35,11 @@ An API written in Angular that was completed for a web programming course at Sen
 
 ## How to use
 
-- Search for employee:
-    -Click on "Employees" tab 
-    -Type in employee name
-- Look at list of positions with salary:
-  -Click on "Positions" tab
+- To searh for a certain employee, do the following:
+    1. Click on "Employees" tab 
+    2. Type in employee name
+- To search for a position and associated salary:
+    1.Click on "Positions" tab
 
 
 ---
