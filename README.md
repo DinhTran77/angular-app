@@ -39,7 +39,7 @@ An API written in Angular that was completed for a web programming course at Sen
     1. Click on "Employees" tab 
     2. Type in employee name
 - To search for a position and associated salary:
-    1.Click on "Positions" tab
+    1. Click on "Positions" tab
 
 
 ---
