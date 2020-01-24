@@ -1,5 +1,4 @@
-# Project Name
-Dinh's Angular API
+# Angular API for backend web development course
 
 ![Angular app image](./public/assets/Angular.jpg)
 ---
